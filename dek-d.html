@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta  charset="utf-8">
+  <title> dek-d </title>
+  <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <!-- JavaScript -->
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <style>
+    *{
+      box-sizing:  border-box;
+    }
+    body{
+      font-family: arial;
+    }
+    .carousel{
+      background: #ffffff;
+    }
+    .carousel-cell1{
+      width: 54%;
+      height: 350px;
+      margin-right: 10px;
+      background-image: url(dek-d.png);
+      border-radius: 5px;
+      counter-increment: carousel-cell1;
+    }
+    .carousel-cell2{
+      width: 54%;
+      height: 350px;
+      margin-right: 10px;
+      background-image: url(dek-d2.png);
+      border-radius: 5px;
+      counter-increment: carousel-cell2;
+    }
+    .carousel-cell3{
+      width: 54%;
+      height: 350px;
+      margin-right: 10px;
+      background-image: url(dek-d3.jpg);
+      border-radius: 5px;
+      counter-increment: carousel-cell3;
+    }
+    
+  </style>
+</head> 
+<body><br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="carousel" data-flickity>
+    <div class="carousel-cell1"></div>
+    <div class="carousel-cell2"></div>
+    <div class="carousel-cell3"></div>
+  </div>
+</body>
+</html>
